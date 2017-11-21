@@ -1,0 +1,14 @@
+@keyframes myChange {
+  from {
+      height: 55px;
+  } to {
+      height: 0;
+  }
+}
+div.ng-hide {
+  animation: 0.175s myChange;
+}
+.smallMargin {
+  margin-top: -10px;
+  margin-bottom: : -10px;
+}
